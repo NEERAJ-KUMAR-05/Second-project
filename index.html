@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef84678b14.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	 <header>
+		<nav class="navbar">
+			<a href="#" class="nav-branding">Neeraj</a>
+
+			<ul class="nav-menu">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#about" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#contact" class="nav-link">Contact</a>
+				</li>
+				<li class="nav-item login-btn">
+					<a href="login.html" class="nav-link">Signin</a>
+				</li>
+				<!-- <li class="nav-item login-btn">
+					<a href="#" class="nav-link">Register</a>
+				</li> -->
+			</ul>
+			<div class="my-website">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</nav>
+	</header> 
+
+	<!-- ############## slider ##################### -->
+	<section>
+		<div class="slider">
+			<div class="myslider first-img fade">
+				<div class="txt">
+					<!-- <h1>Voice Assistent</h1>
+					<p>join us for more features</p> -->
+				</div>
+				<img src="img6.png">
+			</div>
+			<div class="myslider fade">
+				<div class="txt">
+					<!-- <h1>Voice Assistent</h1>
+					<p>join us for more features</p> -->
+				</div>
+				<img src="img7.png">
+			</div>
+			<div class="myslider fade">
+				<div class="txt">
+					<!-- <h1>Voice Assistent</h1>
+					<p>join us for more features</p> -->
+				</div>
+				<img src="img8.png">
+			</div>
+			<div class="myslider fade">
+				<div class="txt">
+					<!-- <h1>Voice Assistent</h1>
+					<p>join us for more features</p> -->
+				</div>
+				<img src="img4.jpg">
+			</div>
+			<div class="myslider fade">
+				<div class="txt">
+					<h1>Voice Assistent</h1>
+					<p>join us for more features</p>
+				</div>
+				<img src="img5.jpg">
+			</div>
+			<a class="next" onclick="plusSlides(1)">&#10095</a>
+			<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+
+			<div class="dotsbox" style="text-align: center;">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+			</div>
+		</div>
+	</section>
+	
+
+
+<div class="container">	
+	<section class="showcase" id="about">
+		<h1 class="about">...ABOUT US...</h1>
+        
+		
+            <div class="row row1">
+                <div class="img-box">
+                    <img src="Gallery.gif" alt="">
+                </div>
+                <div class="text-box">
+                    <h2 class="lg-heading text-black">...GALLERY...</h2>
+                    <p class="text-gray">Optima gallery.</p>
+                    <a href="#project" class="btn btn-secondary"> more </a>
+                </div>
+            </div>
+            <div class="row row2">
+                <div class="img-box">
+                    <img src="blog.gif" alt="">
+                </div>
+                <div class="text-box">
+                    <h2 class="lg-heading text-black">...BLOGS...</h2>
+                    <p class="text-gray">Explore blogs.</p>
+                    <a href="#blogs" class="btn btn-secondary"> more </a>
+                </div>
+            </div>
+        
+    </section>
+
+
+    <section class="features" id="blogs">
+        
+            <div class="box-wrapper">
+                <div class="box box-1">
+                    <i class="fa-solid fa-microchip fa-3x text-red"></i>
+                    <h2 class="md-heading"> ADVANTAGES </h2>
+                    <p>Voice assistants provide a range of advantages for users, including personalization, efficiency, multitasking, accessibility and hands-free control of smart home devices. We can use them anywhere. <span>Additionally, they can be used to control things in your home, making everyday tasks easier and more convenient.</span></p>
+                </div>
+                <div class="box box-2">
+                    <i class="fa-solid fa-check fa-3x"></i>
+                    <h2 class="md-heading"> DIS-ADVANTAGES </h2>
+                    <p>Voice assistent can sometimes misunderstand what you say. They are always listening, which can be a privacy concern, and they need a good internet connection to work. There is also a risk that hackers could use them to access personal information or control smart devices.</p>
+                </div>
+                <div class="box box-3">
+                    <i class="fa-solid fa-check fa-3x"></i>
+                    <h2 class="md-heading">SCOPE</h2>
+                    <p>Technological advances are making voice assistants more capable, particularly in AI, natural language processing (NLP), and machine language. To build a robust speech recognition experience. <span>The artificial intelligence behind it must become batter at handling challenges such as accents and background noise.</span></p>
+                </div>
+            </div>
+       
+    </section>
+
+	<section class="project" id="project">
+		
+			<h1 class="title">...TRY OUR PROJECT... </h1>
+			<div class="boxcss">
+				<img src="./circle-ani.jpg" alt="this is our project (OPTIMA)" >
+				<div class="box-content">
+					<h3>...OPTIMA...</h3>
+					<h3>(Voice Assistent)</h3>
+					<a href="" class="btncss">Go To</a>
+				</div>
+			</div>
+	</section>
+</div>	
+
+
+<section class="container" id="contact">
+	<h1 class="form-h1">...CONTACT US...</h1>
+	<div id="overlay">
+		<form onsubmit="event.preventDefault(); validateForm()">
+			<label for="name">Name:</label>
+			<input type="text" id="name" placeholder="Your name">
+			<small class="error"></small>
+
+			<label for="email">Email:</label>
+			<input type="text" id="email" placeholder="Your email">
+			<small class="error"></small>
+
+			<label for="message">Type <span>your message</span> here:</label>
+			<textarea id="message" placeholder="Your message" rows="2"></textarea>
+			<small class="error"></small>
+
+			<div class="center">
+				<input type="submit" value="Send Message">
+				<p id="success"></p>
+			</div>
+		</form>
+	</div>
+</section>
+
+	<footer class="footer">
+        <div class="social-media-links">
+            <i class="fab fa-facebook fa-3x"></i>
+            <i class="fab fa-twitter fa-3x"></i>
+            <i class="fab fa-instagram fa-3x"></i>
+        </div>
+        <p>Artificial Intelligence &copy; 2023 (OpTima)</p>
+    </footer>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
